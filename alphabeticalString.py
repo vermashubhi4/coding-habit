@@ -1,5 +1,5 @@
 t=int(input("Enter number of testcases"))
-print(t)
+# print(t)
 alphabets = 'abcdefghijklmnopqrstuvwxyz'
 
 for tc in range(0,t):
@@ -8,7 +8,7 @@ for tc in range(0,t):
 	indexes = []
 	notFound = 0
 	minNF = 100002
-	print(len(s))
+	# print(len(s))
 	for i in range(0, len(s), lastindex+1):
 		for alpha in alphabets:
 			if(s[lastindex:].find(alpha) != -1):
